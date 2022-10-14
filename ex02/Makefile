@@ -29,7 +29,7 @@ OBJ_DIR		=	objs/
 HDR_DIR		=	includes/
 
 # FILES
-SRC_FILES	=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRC_FILES	=	main.cpp
 				
 OBJ_FILES	=	$(SRC_FILES:.cpp=.o)
 
