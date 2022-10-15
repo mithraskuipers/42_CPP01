@@ -6,12 +6,12 @@
 #    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
-#    Updated: 2022/10/14 13:12:36 by mikuiper      ########   odam.nl          #
+#    Updated: 2022/10/15 15:45:16 by mikuiper      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 # EXECUTABLE
-NAME		=	zombie00
+NAME		=	cpp01_ex00
 
 # CONFIGURATION
 CC			=	c++

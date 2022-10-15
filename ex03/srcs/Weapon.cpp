@@ -1,37 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   Zombie.cpp                                         :+:    :+:            */
+/*   Weapon.cpp                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2022/10/14 13:03:15 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 16:10:15 by mikuiper      ########   odam.nl         */
+/*   Created: 2022/10/15 16:17:10 by mikuiper      #+#    #+#                 */
+/*   Updated: 2022/10/15 17:01:20 by mikuiper      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/Zombie.hpp"
+#include "../includes/Weapon.hpp"
 
-void	Zombie::announce(void)
+void	Weapon::setType(std::string type)
 {
-	std::cout << this->_name << " " << "BraiiiiiiinnnzzzZ..." << std::endl;
+	this->_type = type;
 }
 
-Zombie::Zombie(std::string name) : _name(name)
+std::string	const	&Weapon::getType(void) const
 {
-	announce();
-}
-
-Zombie::Zombie()
-{
-}
-
-Zombie::~Zombie()
-{
-	std::cout << this->_name << ": has returned to its grave" << std::endl;
-}
-
-void	Zombie::update_name(std::string update_name)
-{
-	this->_name = update_name;
+	return (this->_type);
 }

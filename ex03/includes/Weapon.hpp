@@ -1,37 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   Zombie.cpp                                         :+:    :+:            */
+/*   Weapon.hpp                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2022/10/14 13:03:15 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 16:10:15 by mikuiper      ########   odam.nl         */
+/*   Created: 2022/10/15 16:20:54 by mikuiper      #+#    #+#                 */
+/*   Updated: 2022/10/15 17:22:17 by mikuiper      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/Zombie.hpp"
+#ifndef WEAPON_HPP
+# define WEAPON_HPP
 
-void	Zombie::announce(void)
-{
-	std::cout << this->_name << " " << "BraiiiiiiinnnzzzZ..." << std::endl;
-}
+# include <iostream>
 
-Zombie::Zombie(std::string name) : _name(name)
+class Weapon
 {
-	announce();
-}
+	public:
+		Weapon(std::string type): _type(type) {};
+		~Weapon() {};
+		std::string	const &getType(void) const;
+		void		setType(std::string updated_type);
 
-Zombie::Zombie()
-{
-}
+	private:
+		std::string	_type;
+};
 
-Zombie::~Zombie()
-{
-	std::cout << this->_name << ": has returned to its grave" << std::endl;
-}
-
-void	Zombie::update_name(std::string update_name)
-{
-	this->_name = update_name;
-}
+#endif

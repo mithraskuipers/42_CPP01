@@ -6,7 +6,7 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 12:49:30 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 13:54:44 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/15 16:10:28 by mikuiper      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Zombie
 		Zombie();
 		Zombie(std::string name);
 		~Zombie();
-		void	announce(void) const;
+		void	announce(void);
 		void	update_name(std::string update_name);
 	private: 
 		std::string	_name;

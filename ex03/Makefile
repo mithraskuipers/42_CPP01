@@ -6,12 +6,12 @@
 #    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
-#    Updated: 2022/10/15 15:45:10 by mikuiper      ########   odam.nl          #
+#    Updated: 2022/10/15 17:20:37 by mikuiper      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 # EXECUTABLE
-NAME		=	cpp01_ex01
+NAME		=	cpp01_ex03
 
 # CONFIGURATION
 CC			=	c++
@@ -29,11 +29,16 @@ OBJ_DIR		=	objs/
 HDR_DIR		=	includes/
 
 # FILES
-SRC_FILES	=	main.cpp Zombie.cpp ZombieHorde.cpp
+SRC_FILES	=	main.cpp \
+				Weapon.cpp \
+				HumanA.cpp \
+				HumanB.cpp
 				
 OBJ_FILES	=	$(SRC_FILES:.cpp=.o)
 
-HDR_FILES	=	Zombie.hpp
+HDR_FILES	=	HumanA.hpp \
+				HumanB.hpp \
+				Weapon.hpp
 
 SRC			=	$(addprefix $(SRC_DIR), $(SRC_FILES))
 OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
