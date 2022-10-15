@@ -6,7 +6,7 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 12:49:30 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/14 15:11:38 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/15 13:54:44 by mikuiper      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Zombie
 		void	announce(void) const;
 		void	update_name(std::string update_name);
 	private: 
-		const	std::string	_name;
+		std::string	_name;
 };
 
 void	randomChump(std::string name);
