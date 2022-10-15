@@ -6,12 +6,12 @@
 #    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
-#    Updated: 2022/10/14 13:12:36 by mikuiper      ########   odam.nl          #
+#    Updated: 2022/10/15 12:57:39 by mikuiper      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 # EXECUTABLE
-NAME		=	zombie00
+NAME		=	cpp01_ex02
 
 # CONFIGURATION
 CC			=	c++
@@ -33,7 +33,7 @@ SRC_FILES	=	main.cpp
 				
 OBJ_FILES	=	$(SRC_FILES:.cpp=.o)
 
-HDR_FILES	=	Zombie.hpp
+HDR_FILES	=
 
 SRC			=	$(addprefix $(SRC_DIR), $(SRC_FILES))
 OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
