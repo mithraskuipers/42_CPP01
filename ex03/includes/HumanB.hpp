@@ -6,7 +6,7 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/15 16:52:23 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 17:14:29 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/22 10:33:59 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class HumanB
 	public:
 		HumanB(std::string name);
 		~HumanB(void);
-		void	attack(void) const;
+		void	attack(void);
 		void	setWeapon(Weapon &weapon);
 	private:
 		std::string const	_name;

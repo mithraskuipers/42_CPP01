@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   utils.cpp                                          :+:    :+:            */
+/*   Utils.cpp                                          :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: mkuipers <mkuipers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/21 15:57:10 by mkuipers      #+#    #+#                 */
-/*   Updated: 2022/10/21 20:29:05 by mkuipers      ########   odam.nl         */
+/*   Updated: 2022/10/21 21:08:09 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./../includes/libraries.hpp"
+#include "./../includes/Libraries.hpp"
 
 int	openFile(char *fileName, std::ifstream *fileStream)
 {

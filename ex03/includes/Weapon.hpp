@@ -6,7 +6,7 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/15 16:20:54 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 17:22:17 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/22 10:32:31 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class Weapon
 	public:
 		Weapon(std::string type): _type(type) {};
 		~Weapon() {};
-		std::string	const &getType(void) const;
+		std::string	const &getType(void);
 		void		setType(std::string updated_type);
 
 	private:

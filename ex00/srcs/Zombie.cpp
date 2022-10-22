@@ -6,14 +6,11 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 13:03:15 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/14 13:39:39 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/22 10:13:08 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/Zombie.hpp"
-├─sda1   8:1    0    50M  0 part 
-├─sda2   8:2    0   223G  0 part 
-└─sda3   8:3    0   509M  0 part 
 
 void	Zombie::announce(void)
 {

@@ -6,7 +6,18 @@
 #    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
-#    Updated: 2022/10/15 15:45:16 by mikuiper      ########   odam.nl          #
+#    Updated: 2022/10/22 10:28:34 by mkuipers      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
+#                                                                              #
+#                                                         ::::::::             #
+#    Makefile                                           :+:    :+:             #
+#                                                      +:+                     #
+#    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
+#    Updated: 2022/10/21 21:07:48 by mkuipers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +40,7 @@ OBJ_DIR		=	objs/
 HDR_DIR		=	includes/
 
 # FILES
-SRC_FILES	=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRC_FILES	=	main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 				
 OBJ_FILES	=	$(SRC_FILES:.cpp=.o)
 

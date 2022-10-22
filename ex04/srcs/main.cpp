@@ -6,12 +6,12 @@
 /*   By: mkuipers <mkuipers@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/21 13:00:04 by mkuipers      #+#    #+#                 */
-/*   Updated: 2022/10/21 20:31:51 by mkuipers      ########   odam.nl         */
+/*   Updated: 2022/10/21 21:08:00 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "./../includes/libraries.hpp"
-# include "./../includes/prototypes.hpp"
+# include "./../includes/Libraries.hpp"
+# include "./../includes/Prototypes.hpp"
 
 int	main(int argc, char **argv)
 {

@@ -6,7 +6,7 @@
 #    By: mikuiper <mikuiper@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 11:59:53 by mikuiper      #+#    #+#                  #
-#    Updated: 2022/10/21 20:29:31 by mkuipers      ########   odam.nl          #
+#    Updated: 2022/10/21 21:07:48 by mkuipers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,11 +29,11 @@ OBJ_DIR		=	objs/
 HDR_DIR		=	includes/
 
 # FILES
-SRC_FILES	=	main.cpp utils.cpp
+SRC_FILES	=	main.cpp Utils.cpp
 				
 OBJ_FILES	=	$(SRC_FILES:.cpp=.o)
 
-HDR_FILES	=	libraries.hpp prototypes.hpp
+HDR_FILES	=	Libraries.hpp Prototypes.hpp
 
 SRC			=	$(addprefix $(SRC_DIR), $(SRC_FILES))
 OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))

@@ -6,7 +6,7 @@
 /*   By: mikuiper <mikuiper@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/15 16:17:10 by mikuiper      #+#    #+#                 */
-/*   Updated: 2022/10/15 17:01:20 by mikuiper      ########   odam.nl         */
+/*   Updated: 2022/10/22 10:33:13 by mkuipers      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	Weapon::setType(std::string type)
 	this->_type = type;
 }
 
-std::string	const	&Weapon::getType(void) const
+std::string	const	&Weapon::getType(void)
 {
 	return (this->_type);
 }
